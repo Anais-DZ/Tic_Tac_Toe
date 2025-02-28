@@ -20,7 +20,7 @@ export default function Board() {
   if (winner) {
     status = winner + " a gagné !";
   } else if (isBoardFull) {
-    status = "Perdu !";
+    status = "Match nul !";
   } else {
     status = "Prochain tour : " + (xIsNext ? "X" : "O");
   }

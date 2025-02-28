@@ -2,10 +2,16 @@
   box-sizing: border-box;
 }
 
-body {
+html {
+  background: url("../bg_tic_tac_toe.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
   font-family: sans-serif;
-  margin: 20px;
-  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 h1 {
@@ -47,8 +53,9 @@ ul {
 }
 
 .square {
-  background: #fff;
-  border: 1px solid #999;
+  background: #ffffff44;
+  backdrop-filter: blur(2px);
+  border: 2px solid #0f3444;
   float: left;
   font-size: 32px;
   font-weight: bold;
