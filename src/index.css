@@ -28,11 +28,11 @@ html {
 }
 
 h1 {
-  font-size: 22px;
+  font-size: 28px;
   text-align: center;
   font-family: 'press start 2p';
   color: #fff;
-  margin: 65px 35px 35px 35px;
+  margin: 65px 0px 35px 0px;
   letter-spacing: 1px;
   text-shadow: 1px 1px 5px #04141d;
 }
