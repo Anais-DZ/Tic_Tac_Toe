@@ -51,7 +51,9 @@ export default function Board() {
   }
 
   return (
-    <>    
+    <>
+      <title>XO Arena</title>
+      <meta name='description' content='XO-Arena, le Tic-Tac-Toe en XXL !'/> 
       <h1 className="statusTitle">Tic-Tac-Toe</h1>
       <div className="statusContainer">
         <p className="rulesContainer">
