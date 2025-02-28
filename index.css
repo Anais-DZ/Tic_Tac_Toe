@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Press+Start+2P&family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background: url("../bg_tic_tac_toe.webp");
+  background-size: 100vh;
+  background-repeat: no-repeat;
+  height: 100vh;
+  color: #04141d;
+}
+
+.statusContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.rulesContainer {
+  text-align: center;
+  max-width: 400px;
+  font-family: 'chakra petch';
+  font-size: 19px;
+  margin: 0 30px;
+  color: #fff;
+}
+
+h1 {
+  font-size: 28px;
+  text-align: center;
+  font-family: 'press start 2p';
+  color: #fff;
+  margin: 65px 0px 35px 0px;
+  letter-spacing: 1px;
+  text-shadow: 1px 1px 5px #04141d;
+}
+
+h2 {
+  font-size: 24px;
+  font-family: 'quantico';
+  font-weight: 700;
+  color: #fff;
+  margin : 20px 0 10px 0;
+  letter-spacing: 1px;
+  text-shadow: 1px 1px 1px #04141d;
+}
+
+a {
+  text-decoration: none;
+  font-family: 'chakra petch';
+  color: #fff;
+  font-size: 14px;
+  padding: 10px 0;
+}
+
+.square {
+  background: #ffffff9a;
+  backdrop-filter: blur(2px);
+  border: none;
+  float: left;
+  font-size: 42px;
+  height: 70px;
+  padding: 0;
+  margin: 1px;
+  text-align: center;
+  width: 70px;
+  border-radius: 8px;
+  font-family: 'press start 2p';
+}
+
+.boardRow:after {
+  clear: both;
+  content: '';
+  display: table;
+}
+
+.status {
+  margin: 45px 0 15px;
+  font-size: 28px;
+  text-align: center;
+  font-family: 'quantico';
+  font-weight: 700;
+  color: #fff;
+  text-shadow: 1px 1px 5px #04141d;
+}
+
+.resetButton {
+  margin: 45px 0;
+  padding: 10px;
+  font-size: 22px;
+  width: 300px;
+  font-family: 'quantico';
+  border: none;
+  font-weight: 700;
+  color: #04141d;
+  box-shadow: 0px 0px 5px 4px rgba(4,20,29,0.3);
+}
