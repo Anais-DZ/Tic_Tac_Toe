@@ -21,3 +21,17 @@ J'ai réalisé ce tutoriel en autodidacte pour apprendre les bases de React et p
 ![Quelques captures d'écran du jeu](https://github.com/Anais-DZ/Tic_Tac_Toe/blob/main/tic_tac_toe.png)
 ![Quelques captures d'écran du jeu](https://github.com/Anais-DZ/Tic_Tac_Toe/blob/main/tic_tac_toe_gagnant.png)
 ![Quelques captures d'écran du jeu](https://github.com/Anais-DZ/Tic_Tac_Toe/blob/main/tic_tac_toe_perdant.png)
+
+
+**Nouveautés :**
+<br/>
+
+✅ Un nouveau design (background, nouvelles couleurs pour les symbôles)
+<br/>
+✅ Une grille plus grande pour un jeu un peu plus complexe
+<br/>
+
+
+![Quelques captures d'écran du jeu](https://github.com/Anais-DZ/Tic_Tac_Toe/blob/main/tictactoeimg.jpg)
+![Quelques captures d'écran du jeu](https://github.com/Anais-DZ/Tic_Tac_Toe/blob/main/tictactoeimg2.jpg)
+![Quelques captures d'écran du jeu](https://github.com/Anais-DZ/Tic_Tac_Toe/blob/main/tictactoe_gagnant.jpg)
