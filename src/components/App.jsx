@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import Days from './days';
 
 function Square({ value, onSquareClick }) {
   return (
@@ -57,6 +58,7 @@ export default function Board() {
     <>
     <div className='titleAndRules'>
       <h1 className="statusTitle">Tic-Tac-Toe</h1>
+      <Days />
         <p className="rulesContainer">
         Le premier joueur à aligner 4 symboles gagne ! Si la grille est pleine sans vainqueur, c’est un match nul.
         </p>
