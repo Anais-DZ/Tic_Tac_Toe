@@ -31,6 +31,8 @@ export default function Board() {
     status = "Prochain joueur : " + (xIsNext ? "X" : "O");
   }
 
+
+  //permet d'alterner avec X ou O ç chaque nouveau clique
   function handleClick(i) {
     if (squares[i] || calculateWinner(squares)) {
       return;
@@ -45,6 +47,7 @@ export default function Board() {
     setXIsNext(!xIsNext);
   }
 
+  //permet de réactualiser le jeu ou de lancer une nouvelle partie
   function resetGame() {
     setSquares(Array(25).fill(null));
     setXIsNext(true);
@@ -104,6 +107,8 @@ export default function Board() {
   );
 }
 
+
+//Si le tableau est rempli sans gagnant, le résulat est null
 function calculateWinner(squares) {
   const lines = [
     // Lignes
