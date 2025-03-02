@@ -52,12 +52,13 @@ export default function Board() {
 
   return (
     <>
-      <title>XO Arena</title> 
+    <div className='titleAndRules'>
       <h1 className="statusTitle">Tic-Tac-Toe</h1>
-      <div className="statusContainer">
         <p className="rulesContainer">
-        Le premier joueur à aligner 4 symboles gagne. Si la grille est pleine sans vainqueur, c’est un match nul.
+        Le premier joueur à aligner 4 symboles gagne ! Si la grille est pleine sans vainqueur, c’est un match nul.
         </p>
+    </div>
+    <div className='gamePart'>
         <div className="status">{status}</div>
         <div className='plateauJeu'>
           <div className="boardRow">
@@ -97,8 +98,8 @@ export default function Board() {
           </div>
         </div>
         <button className="resetButton" onClick={resetGame}>Nouvelle partie ?</button>
-        <i>Designed by <a href='https://www.freepik.com/author/kenshinstock' alt="lien vers site Freepik et la page de Kenshinstock">Kenshinstock</a> & <a href="https://anais-diez.vercel.app/" alt="lien vers site perso Anaïs Diez">Anaïs DIEZ</a></i>
       </div>
+      <i>Designed by <a href='https://www.freepik.com/author/kenshinstock' alt="lien vers site Freepik et la page de Kenshinstock" target="_blank">Kenshinstock</a> & <a href="https://anais-diez.vercel.app/" alt="lien vers site perso Anaïs Diez"  target="_blank">Anaïs DIEZ</a></i>
     </> 
   );
 }

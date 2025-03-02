@@ -6,11 +6,18 @@
 
 html {
   background: url("../assets/bg_tic_tac_toe.webp");
+  background-size: 100vh;
   background-repeat: no-repeat;
   color: #04141d;
 }
 
-.statusContainer {
+#root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.gamePart {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -35,16 +42,6 @@ h1 {
   text-shadow: 1px 1px 5px #04141d;
 }
 
-h2 {
-  font-size: 24px;
-  font-family: 'quantico';
-  font-weight: 700;
-  color: #fff;
-  margin : 20px 0 10px 0;
-  letter-spacing: 1px;
-  text-shadow: 1px 1px 1px #04141d;
-}
-
 i {
   font-family: 'chakra petch';
   color: #fff;
@@ -58,7 +55,7 @@ a {
 }
 
 .square {
-  background: #ffffff9a;
+  background: #ffffffc8;
   backdrop-filter: blur(2px);
   border: none;
   float: left;
@@ -98,4 +95,48 @@ a {
   font-weight: 700;
   color: #04141d;
   box-shadow: 0px 0px 5px 4px rgba(4,20,29,0.3);
+}
+
+@media (min-width: 720px) {
+
+  html {
+    background: url("../assets/bg_tic_tac_toe2.webp");
+  }
+
+}
+
+@media (min-width: 1000px) {
+
+  html {
+    background: url("../assets/bg_tic_tac_toe2.webp");
+  }
+
+  #root {
+    flex-direction: row;
+    justify-content: space-evenly
+  }
+
+  .square {
+    height: 100px;
+    width: 100px;
+  }
+
+  i {
+    display: none;
+  }
+
+  .rulesContainer {
+    margin: 0;
+    font-size: 28px;
+  }
+
+  h1 {
+    font-size: 34px;
+    margin-top: 0;
+  }
+
+  .status {
+    font-size: 38px;
+  }
+  
 }
