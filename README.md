@@ -6,7 +6,7 @@ J'ai réalisé ce tutoriel en autodidacte pour apprendre les bases de React et p
 
 <br/>
 
-<br/>Le site est disponible, en mobile first, à cette adresse --> https://xo-arena.vercel.app/
+<br/>Le site est disponible à cette adresse --> https://xo-arena.vercel.app/
 
 <br/>
 
