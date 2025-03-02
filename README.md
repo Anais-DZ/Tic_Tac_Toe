@@ -30,6 +30,8 @@ J'ai réalisé ce tutoriel en autodidacte pour apprendre les bases de React et p
 
 ✅ Un nouveau design (background, nouvelles couleurs pour les symbôles)
 <br/>
+✅ Une phrase dynamique sous le titre qui changera automatiquement selon le jour de la semaine
+<br/>
 ✅ Une grille plus grande (5x5) pour un jeu un peu plus complexe
 <br/>
 
