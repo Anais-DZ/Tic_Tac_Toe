@@ -6,9 +6,7 @@
 
 html {
   background: url("../assets/bg_tic_tac_toe.webp");
-  background-size: 100vh;
   background-repeat: no-repeat;
-  height: 100vh;
   color: #04141d;
 }
 
@@ -100,17 +98,4 @@ a {
   font-weight: 700;
   color: #04141d;
   box-shadow: 0px 0px 5px 4px rgba(4,20,29,0.3);
-}
-
-@media (min-width: 820px) {
-
-  html {
-    background: url("../assets/bg_tic_tac_toe2.webp");
-    background-repeat: repeat;
-  }
-
-  i {
-    margin-top: 50px;
-  }
-
 }
