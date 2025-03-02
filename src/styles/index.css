@@ -33,7 +33,7 @@ html {
 }
 
 p {
-  margin-bottom: 20px;
+  margin: 0 0 20px;
   font-size: 17px;
 }
 
@@ -42,7 +42,7 @@ h1 {
   text-align: center;
   font-family: 'press start 2p';
   color: #fff;
-  margin: 65px 0px 35px 0px;
+  margin: 45px 0px 35px 0px;
   letter-spacing: 1px;
   text-shadow: 1px 1px 5px #04141d;
 }
