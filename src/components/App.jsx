@@ -14,6 +14,22 @@ function Square({ value, onSquareClick }) {
   );
 }
 
+function Days() {
+  const currentDay = new Date().getDay();
+  let message;
+
+  if (currentDay >= 1 && currentDay <= 3) {
+    message = "Dur le debut de semaine ? Une partie pour se motiver ? 😉";
+
+  }else if (currentDay >= 4 && currentDay <= 5) {
+    message = "Bientôt le wee-end ! Une partie pour patienter ? 😉";
+    
+  } else {
+    message = "C'est le week-end ! Une partie pour fêter ça ? 😉";
+  }
+  return <p>{message}</p>;
+}
+
 
 export default function Board() { 
 
@@ -57,7 +73,7 @@ export default function Board() {
     <>
     <div className='titleAndRules'>
       <h1 className="statusTitle">Tic-Tac-Toe</h1>
-      
+      <Days />
         <p className="rulesContainer">
         Le premier joueur à aligner 4 symboles gagne ! Si la grille est pleine sans vainqueur, c’est un match nul.
         </p>
