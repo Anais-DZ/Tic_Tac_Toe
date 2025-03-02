@@ -47,18 +47,6 @@ export default function Board() {
     setXIsNext(!xIsNext);
   }
 
-  //Chercher pourquoi le jour ne s'affiche pas
-  // function Days () {
-  //   const currentDay = new Date().getDay()
-  //   const isWeekEnd = currentDay = ["Saturday","Sunday"]
-
-  //   if (isWeekEnd) {
-  //       return <div>C'est le wee-end ! Une partie pour fêter ça ? 😉</div>
-  //   } else {
-  //       return <div>Bientôt le week-end ! Une partie pour patienter ? 😉</div>
-  //   }
-  // }
-
   //permet de réactualiser le jeu ou de lancer une nouvelle partie
   function resetGame() {
     setSquares(Array(25).fill(null));
