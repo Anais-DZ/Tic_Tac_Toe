@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import Days from './days';
 
 function Square({ value, onSquareClick }) {
   return (
@@ -48,6 +47,18 @@ export default function Board() {
     setXIsNext(!xIsNext);
   }
 
+  //Chercher pourquoi le jour ne s'affiche pas
+  // function Days () {
+  //   const currentDay = new Date().getDay()
+  //   const isWeekEnd = currentDay = ["Saturday","Sunday"]
+
+  //   if (isWeekEnd) {
+  //       return <div>C'est le wee-end ! Une partie pour fêter ça ? 😉</div>
+  //   } else {
+  //       return <div>Bientôt le week-end ! Une partie pour patienter ? 😉</div>
+  //   }
+  // }
+
   //permet de réactualiser le jeu ou de lancer une nouvelle partie
   function resetGame() {
     setSquares(Array(25).fill(null));
@@ -58,7 +69,7 @@ export default function Board() {
     <>
     <div className='titleAndRules'>
       <h1 className="statusTitle">Tic-Tac-Toe</h1>
-      <Days />
+      
         <p className="rulesContainer">
         Le premier joueur à aligner 4 symboles gagne ! Si la grille est pleine sans vainqueur, c’est un match nul.
         </p>
