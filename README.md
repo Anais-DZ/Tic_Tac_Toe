@@ -3,8 +3,13 @@
 Ce projet est une implémentation du jeu du morpion en React, basée sur le tutoriel officiel de React (https://fr.react.dev/learn/tutorial-tic-tac-toe#setup-for-the-tutorial). Il permet à deux joueurs de s'affronter en plaçant des "X" et des "O" sur une grille 3x3.
 <br/>
 J'ai réalisé ce tutoriel en autodidacte pour apprendre les bases de React et progresser dans mes compétences en développement.
-
 <br/>
+
+
+![React](https://img.shields.io/badge/React-%2361DAFB?style=for-the-badge&logo=react&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-%23646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-%231572B6?style=for-the-badge&logo=css3&logoColor=white)
+
 
 <br/>Le site est disponible à cette adresse --> https://xo-arena.vercel.app/
 
